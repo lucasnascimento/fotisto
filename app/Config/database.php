@@ -74,9 +74,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => '',
-		'password' => '',
-		'database' => '',
+		'login' => 'root',
+		'password' => 'root',
+		'database' => 'fotisto',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

@@ -7,10 +7,8 @@ class Event extends AppModel {
     		'Photo' => array(
     				'className'  => 'Photo',
     				'order'      => 'Photo.created_at DESC'
-    		)
-    );
-    public $hasMany = array(
-    		'ProductsContracted'
+    		),
+			'ProductsContracted'
     );
     public $hasAndBelongsToMany = array(
     		'Product' =>

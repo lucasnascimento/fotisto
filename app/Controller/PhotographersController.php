@@ -1,0 +1,1 @@
+<?phpApp::uses('AppController', 'Controller');class PhotographersController extends AppController {	public $name = 'Photographers';	public $uses = array( 'Photographer' );	public function admin_index() {		$this->set( 'registros', $this->paginate( 'Photographer' ) );		//debug( $this->Photographer->findAll() );	}}?>
